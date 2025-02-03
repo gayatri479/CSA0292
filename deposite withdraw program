@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+    int initial_balence,deposite,balence_a,withdraw,balence_b,final_balence;
+    printf("enter initial_balence=");
+    scanf("%d",&initial_balence);
+    printf("enter deposite=");
+    scanf("%d",&deposite);
+    balence_a=initial_balence+deposite;
+    printf("balence_a=%d\n",balence_a);
+    printf("enter the value of withdraw=");
+    scanf("%d",&withdraw);
+    balence_b=balence_a-withdraw;
+    printf("balence_b=%d\n",balence_b);
+    final_balence=balence_b;
+    printf("final_balence=%d",final_balence);
+    return 0;
+}
+Output
+  enter initial_balence=200
+enter deposite=400
+balence_a=600
+enter the value of withdraw=100
+balence_b=500
+final_balence=500
