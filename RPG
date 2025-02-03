@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+   float amount_USD,amount_INR;
+   printf("enter amount_USD=");
+   scanf("%f",&amount_USD);
+   amount_INR=amount_USD*83;
+   printf("amount_INR=%f",amount_INR);
+   return 0;
+Output
+ enter amount_USD=78
+amount_INR=6474.000000
+
+
