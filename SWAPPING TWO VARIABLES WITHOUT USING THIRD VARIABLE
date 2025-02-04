@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{
+int a,b;
+printf("enter the value of a: ");
+scanf("%d",&a);
+printf("enter the value of b: ");
+scanf("%d",&b);
+a=a+b;
+b=a-b;
+a=a-b;
+printf("\nafter swapping a=%d\nb=%d",a,b);
+return 0;
+}
+OUTPUT:
+enter the value of a: 15
+enter the value of b: 10
+
+after swapping a=10
+b=15
+
+=== Code Execution Successful ===
