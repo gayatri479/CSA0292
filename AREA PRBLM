@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() 
+{
+   int length,breadth,area,perimeter;
+   printf("enter the length of rectangle=");
+   scanf("%d",&length);
+   printf("enter the breadth of rectangle=");
+   scanf("%d",&breadth);
+   area=length*breadth;
+   perimeter=2*(length+breadth);
+   printf("area=%d\n",area);
+   printf("perimeter=%d\n",perimeter);
+   return 0;
+}
+OUTPUT;
+enter the length of rectangle=12
+enter the breadth of rectangle=10
+area=120
+perimeter=44
+
+
+=== Code Execution Successful ===
