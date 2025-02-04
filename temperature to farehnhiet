@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int tem,far;
+printf("enter the value of tem=\n");
+scanf("%d",&tem);
+far=tem+32;
+printf("far=%d",far);
+return 0;
+}
+output:
+enter the value of tem=273
+far=305
