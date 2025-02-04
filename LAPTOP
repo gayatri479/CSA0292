@@ -1,0 +1,38 @@
+#include <stdio.h>
+int main()
+{
+    int num_laptops,num_headphones,num_chargers;
+    int price_laptop,price_headphone,price_charger;
+    float subtotal,tax,total;
+    float TAX_RATE=10/100;
+    printf("Enter the num_laptops=");
+    scanf("%d",&num_laptops);
+    printf("Enter the price of one laptop=");
+    scanf("%d",&price_laptop);
+    printf("Enter the num_headphones=");
+    scanf("%d",&num_headphones);
+    printf("Enter the price of one headphone=");
+    scanf("%d",&price_headphone);
+    printf("Enter the num_chargers=");
+    scanf("%d",&num_chargers);
+    printf("Enter the price of one charger=");
+    scanf("%d",&price_charger);
+    subtotal=(num_laptops*price_laptop)+(num_headphones*price_headphone)+(num_chargers*price_charger);
+    tax=subtotal*TAX_RATE;
+    total=subtotal+tax;
+    printf("\nsubtotal before tax=$%.2f\n",subtotal);
+    printf("tax(10%%)=$%.2f\n",tax);
+    printf("totaal amount to pay=$%.2f\n",total);
+    return 0;
+}
+OUTPUT:
+Enter the num_laptops=2
+Enter the price of one laptop=500
+Enter the num_headphones=3
+Enter the price of one headphone=50
+Enter the num_chargers=4
+Enter the price of one charger=20
+subtotal before tax=$1230.00
+tax(10%)=$0.00
+totaal amount to pay=$1230.00
+=== Code Execution Successful ===
