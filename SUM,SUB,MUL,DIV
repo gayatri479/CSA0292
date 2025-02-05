@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,sum,sub,mul;
+    float div;
+    printf("enter the value a=");
+    scanf("%d",&a);
+    printf("enter the value b=");
+    scanf("%d",&b);
+    sum=a+b;
+    printf("sum=%d\n",sum);
+    sub=a-b;
+    printf("sub=%d\n",sub);
+    mul=a*b;
+    printf("mul=%d\n",mul);
+    div=a/b;
+    printf("div=%f\n",div);
+    return 0;
+}
+OUTPUT:
+enter the value a=20
+enter the value b=10
+sum=30
+sub=10
+mul=200
+div=2.000000
