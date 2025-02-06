@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int length,breadth,area;
+    printf("enter the value of length=");
+    scanf("%d",&length);
+    printf("enter the value of breadth=");
+    scanf("%d",&breadth);
+    area=length*breadth;
+    printf("area=%d",area);
+    return 0;
+}
+OUTPUT:
+enter the value of length=5
+enter the value of breadth=6
+area=30
