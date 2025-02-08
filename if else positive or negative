@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    int integer;
+    printf("enter the integer=");
+    scanf("%d",&integer);
+    if(integer<0==0)
+    {
+    printf("the number is positive");
+    }
+    else
+    {
+        printf("the number is negative");
+    }
+    return 0;
+}
+
+OUTPUT:
+enter the integer=5
+the number is positive
+
+=== Code Execution Successful ===
