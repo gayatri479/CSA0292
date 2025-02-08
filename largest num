@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("enter the value of \na=");
+    scanf("%d",&a);
+    printf("enter the value of \nb=");
+    scanf("%d",&b);
+    printf("enter the value of \nc=");
+    scanf("%d",&c);
+    if(a>=b && a>=c)
+    printf("largest value of a=%d",a);
+    else if(b>=a && b>=c)
+printf("largest value of b=%d",b);
+else
+printf(" largest number=%d",c);
+return 0;
+}
+OUTMAIN:
+enter the value of 
+a=2
+enter the value of 
+b=3
+enter the value of 
+c=4
+ largest number=4
