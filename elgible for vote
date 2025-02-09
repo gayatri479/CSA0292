@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{  
+    int i;
+    printf("enter the value of i=");
+    scanf("%d",&i);
+    if(i>=18)
+    printf("the person is elgible to vote");
+    else
+    printf("the person is not elgible for vote");
+    return 0;
+}
+OUTPUT:
+enter the value of i=22
+the person is elgible to vote
+
+=== Code Execution Successful ===
