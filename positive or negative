@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("enter the value of a=");
+    scanf("%d",&a);
+    if(a==0)
+    printf("value of a is zero");
+    else if(a>0)
+    printf("value of a is positive");
+    else
+    printf("value of a is negative");
+    return 0;
+}
+OUTPUT:
+enter the value of a=0
+value of a is zero
+
+enter the value of a=57
+value of a is positive
+
+=== Code Execution Successful ===
