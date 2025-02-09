@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+   int a,b,c;
+   printf("enter the a value=");
+   scanf("%d",&a);
+   printf("enter the b value=");
+   scanf("%d",&b);
+   printf("enter the c value=");
+   scanf("%d",&c);
+   if(a>b)
+   printf("larger number is=%d",a);
+   else if(b>c) 
+   printf("larger number is=%d",b);
+   else
+   printf("larger number is=%d",c);
+   return 0;
+}
+OUTPUT:
+enter the a value=3
+enter the b value=4
+enter the c value=5
+larger number is=5
+
+=== Code Execution Successful ===
