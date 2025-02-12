@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int principal,amount,time,CI;
+    float rate;
+    printf("enter principal amount=");
+    scanf("%d",&principal);
+    printf("enter rate=");
+    scanf("%f",&rate);
+    printf("enter time=");
+    scanf("%d",&time);
+    amount= principal* (( pow((1+ rate/100),time)));
+   printf("amount=%d\n",amount);
+   CI=amount-principal;
+   printf("CI=%d\n",CI);
+   return 0;
+}
+   OUTPUT:
+enter principal amount=2000
+enter rate=5.5
+enter time=20
+amount=5835
+CI=3835
