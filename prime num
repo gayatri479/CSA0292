@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+    int i,num,count=0;
+    printf("enter any value=");
+    scanf("%d",&num);
+    for(i=2;i<=num/2;i++)
+   if(num%i==0)
+   {
+        count=count+1;
+    }
+    if(count==0)
+    {
+        printf("it is prime number");
+    }
+    else
+    {
+        printf("it is not prime number");
+    }
+    return 0;
+    
+    
+}
+output:
+enter any value=8
+it is not prime number
+
+enter any value=5
+it is prime number
