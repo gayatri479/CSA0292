@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("enter any number");
+    scanf("%d",&n);
+    if(n>0)
+    {
+        printf("%d is natural number");
+    }
+    else{
+        printf("%d is not natural number");
+}
+return 0;
+}
+output:
+enter any number-7
+7 is not natural number
+
+=== Code Execution Successful ===
