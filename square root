@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int n,square_root;
+    printf("enter any value=");
+    scanf("%d",&n);
+    square_root=sqrt(n);
+    printf("sqaure_root  is=%d",square_root);
+    return 0;
+}
+Output
+ enter any value=64
+sqaure_root  is=8
+=== Code Execution Successful ===
+
+
