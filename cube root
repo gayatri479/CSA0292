@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int n,cube_root;
+    printf("enter any value=");
+    scanf("%d",&n);
+    cube_root=cbrt(n);
+    printf("cube_root  is=%d",cube_root);
+    return 0;
+}
+output:
+enter any value=8
+cube_root  is=2
+
+=== Code Execution Successful ===
