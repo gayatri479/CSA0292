@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    int matrix [4][5]
+    int i,j;
+    for(i=0;i<4;i++)
+    {
+    for(j=0;j<5;j++)
+    printf("enter the value[%d][%d]]");
+    scanf("%d"&matrix[i][j]);
+    }
+    {
+        for(i=0;i<4;i++)
+    for(j=0;j<5;j++)
+    printf("%d",matrix[i][j]);
+    }
+    {
+        if(i==2)
+    printf("\n");
+   }
+   return 0;
+}
