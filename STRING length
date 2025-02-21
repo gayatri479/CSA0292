@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char a[20]="gayathri";
+    char b[20]={'g','a','y','a','t','h','r','i','\0'};
+    printf("length of string a=%d\n",strlen(a));
+    printf("length of strings b=%d\n",strlen(b));
+    return 0;
+}
+OUTPUT:
+length of string a=8
+length of strings b=8
