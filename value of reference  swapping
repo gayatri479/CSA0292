@@ -1,0 +1,26 @@
+#include<stdio.h>
+int swap(int *a,int *b){
+int c=*a;
+*a=*b;
+*b=c;
+return 0;
+}
+int main()
+{
+int a=20;
+int b=10;
+printf("before swapping value of a=%d\n",a);
+printf("before swapping value of b=%d\n",b);
+swap(&a,&b);
+printf("after swapping value of a=%d\n",a);
+printf("after swapping value of b=%d\n",b);
+return 0;
+}
+output:
+before swapping value of a=20
+before swapping value of b=10
+after swapping value of a=10
+after swapping value of b=20
+
+
+=== Code Execution Successful ===
