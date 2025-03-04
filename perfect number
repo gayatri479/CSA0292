@@ -1,0 +1,25 @@
+#include <stdio.h>
+ 
+int main()
+{
+    int number, rem, sum = 0, i;
+ 
+    printf("Enter a Number: ");
+    scanf("%d", &number);
+    for (i = 1; i <number; i++)
+    {
+        rem = number % i;
+	if (rem == 0)
+        {
+            sum = sum + i;
+        }
+    }
+    if (sum == number)                                                //perfect number means sum of proper divisors of 6 is 1 + 2 + 3 = 6, 
+        printf("%d is perfect number", number);
+    else
+        printf("%d is not a perfect number", number);
+    return 0;
+}
+output:
+Enter a Number: 6
+6 is perfect number
