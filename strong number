@@ -1,0 +1,36 @@
+#include<stdio.h>
+
+int main()
+{
+	 int number, original, rem, sum=0, fact, i;
+	 printf("Enter number: ");
+	 scanf("%d", &number);
+	
+	 original = number;
+	 while(number != 0)
+	 {
+		  rem = number%10;
+		  fact = 1;
+		  for(i=1; i<=rem; i++)
+		  {
+		   	fact = fact*i;
+		  }
+		  
+		  sum = sum + fact;
+		  number=number/10;
+	 }
+	 
+	 if(sum == original)
+	 {
+	  	printf("%d is STRONG.", original);
+	 }
+	 else
+	 {
+	  	printf("%d is NOT STRONG.", original);
+	 }
+
+	 return(0);
+}
+output:
+Enter number: 123
+123 is NOT STRONG.
