@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int arr[5] = { 15, 25, 35, 45, 55 };
+    printf("Element at arr[2]: %d\n", arr[2]);
+    printf("Element at arr[4]: %d\n", arr[4]);
+    printf("Element at arr[0]: %d\n", arr[0]);
+
+    return 0;
+}
+output:
+Element at arr[2]: 35
+Element at arr[4]: 55
+Element at arr[0]: 15
