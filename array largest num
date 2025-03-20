@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int arr[] = {10, 25, 5, 80, 60};
+    int max = arr[0]; 
+
+    for(int i = 1; i < 5; i++) {
+        if(arr[i] > max) {
+            max = arr[i];
+        }
+    }
+
+    printf("Largest number: %d", max);
+    return 0;
+}
+ output:
+Largest number: 80
+
+=== Code Execution Successful ===
