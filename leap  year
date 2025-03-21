@@ -2,14 +2,14 @@
 int main()
 {
     int year=2028;
-    if(year%400==0){
+    if((year%400)==0){
     printf("year is leap year");
     }
-    else if(year%100==0)
+    else if((year%100)==0)
     {
     printf("year is not leap year");
    }
-   else if(year%4==0)
+   else if((year%4)==0)
    {
     printf("year is leap year");
    }
