@@ -1,0 +1,41 @@
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+int main()
+{
+    char a[70]="saveetha engineering college";
+    int vowels,consonents,digits,space,i;
+     vowels=consonents=digits=space=0;
+    for(i=0;a[i]!='\0';i++)
+    {
+        a[i]=tolower(a[i]);
+        if(a[i]=='a'||a[i]=='e'||a[i]=='i'||a[i]=='o'||a[i]=='u')
+        {
+            vowels++;
+        }
+   else if(a[i]>='a'&&a[i]<='z')
+   {
+       consonents++;
+   }
+    else if(a[i]>='1'&&a[i]<='9')   
+    {
+        digits++;
+    }
+    else if(a[i]=' ')
+    {
+        space++;
+    }
+    }
+     printf("vowels:%d\n",vowels);
+    printf("consonants:%d\n",consonents);
+    printf("digits:%d\n",digits);
+    printf("space:%d",space);
+    return 0;
+}
+output;
+vowels:12
+consonants:14
+digits:0
+space:2
+
+=== Code Execution Successful ===
