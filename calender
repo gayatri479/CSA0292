@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+   int days=999;
+   int year,month,week;
+   year=days/360;
+   days%=360;
+   month=days/30;
+   days%=30;
+   week=week/7;
+   days%=7;
+    printf("Years: %d\n", year); 
+ printf("Months: %d\n", month); 
+ printf("Weeks: %d\n", week); 
+ printf("Days: %d\n", days); 
+return 0;
+}
+   output=
+Years: 2
+Months: 9
+Weeks: 0
+Days: 2
+
+
+=== Code Execution Successful ===
