@@ -1,0 +1,39 @@
+#include<stdio.h>
+int main()
+{
+ int a[3][3]={1,2,3,4,5,6,7,8,9};
+ int i,j,sum=0;
+ for(i=0;i<3;i++)
+ {
+    for(j=0;j<3;j++)
+    {
+    printf("%d\t",a[i][j]);
+    }
+    printf("\n");
+ }
+ for(i=0;i<3;i++)
+ {
+    for(j=0;j<3;j++)
+    {
+    if(i==j)
+    {
+    printf(" diagonal elements=%d\n",a[i][j]);
+    }
+    }
+ }
+ for(i=0;i<3;i++)
+ {
+    sum+=a[i][i];
+ }
+ printf("sum of diagonal elements=%d",sum);
+ return 0;
+}
+output:1	2	3	
+4	5	6	
+7	8	9	
+ diagonal elements=1
+ diagonal elements=5
+ diagonal elements=9
+sum of diagonal elements=15
+
+=== Code Execution Successful ===
