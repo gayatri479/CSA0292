@@ -1,0 +1,35 @@
+#include<stdio.h>
+int main()
+{
+ int a[3][3]={1,0,0,0,1,0,0,0,1};
+ int i,j,orthogonal=1;
+ for(i=0;i<3;i++)
+ {
+    for(j=0;j<3;j++)
+        {
+            if(i!=j&&a[i][j]!=0)
+            {
+                orthogonal=0;
+                break;
+            }
+            if(i==j&&a[i][j]!=1)
+            {
+                orthogonal=0;
+                break;
+            }
+        }
+}
+ if(orthogonal)
+ {
+ printf("The given matrix is orthogonal matrix");
+ }
+ else
+ {
+ printf("The given matrix is not orthogonal matrix");
+ }
+ return 0;
+}
+output:
+The given matrix is orthogonal matrix
+
+=== Code Execution Successful ===
