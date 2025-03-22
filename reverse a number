@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char a[10]="gayathri";
+    printf("%s\n",a);
+   int len=(strlen(a));
+    for(int i=0,j=len-1;i<=j;i++,j--)
+    {
+        char b=a[i];
+        a[i]=a[j];
+        a[j]=b;
+    }
+    printf("entered string in reversed string =%s",a);
+    return 0;
+    
+}
+output:
+gayathri
+entered string in reversed string =irhtayag
+
+=== Code Execution Successful ===
