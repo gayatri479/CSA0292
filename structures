@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include<string.h>
+struct person
+{
+    char name[50];
+    int regno;
+    float salary;
+}p1,p2;
+int main()
+{
+    strcpy(p1.name,"prasanth");
+    p1.regno=1924;
+    p1.salary=50000;
+    printf("p1.name=%s\n",p1.name);
+    printf("p1.regno=%d\n",p1.regno);
+    printf("p1.salary=%.2f\n",p1.salary);
+  strcpy(p2.name,"gayathri");
+  p2.regno=1824;
+  p2.salary=60000;
+  printf("p2.name=%s\n",p2.name);
+    printf("p2.regno=%d\n",p2.regno);
+    printf("p2.salary=%.2f",p2.salary);
+   return 0;
+}
+output:
+p1.name=prasanth
+p1.regno=1924
+p1.salary=50000.00
+p2.name=gayathri
+p2.regno=1824
+p2.salary=60000.00
+
+=== Code Execution Successful ===
